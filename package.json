@@ -1,0 +1,51 @@
+{
+  "name": "v4",
+  "description": "Personal Website V4",
+  "version": "1.0.0",
+  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bchiang7/v4"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "framer-motion"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "clean": "rm -rf .next .cache",
+    "start": "next start",
+    "lint": "next lint",
+    "lint-staged": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.19",
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.5",
+    "openai": "^6.49.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "tailwind-merge": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "postcss": "^8.4.40",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4"
+  }
+}
